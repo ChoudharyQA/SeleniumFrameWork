@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-18T06:25:20 IST" name="Suite" finished-at="2024-01-18T06:26:04 IST" duration-ms="44276">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.loginErrorMessage()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" name="loginErrorMessage" class="SaurabhSeleniumPackage.Tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="Submitform.SubmitsForm(java.util.HashMap)[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" name="SubmitsForm" class="SaurabhSeleniumPackage.Tests.Submitform"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-01-18T06:25:20 IST" name="Error Validation Test" finished-at="2024-01-18T06:25:53 IST" duration-ms="32564">
+      <class name="SaurabhSeleniumPackage.Tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:20 IST" name="launchApplication" finished-at="2024-01-18T06:25:30 IST" duration-ms="9586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorMessage()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:30 IST" name="loginErrorMessage" finished-at="2024-01-18T06:25:30 IST" duration-ms="481" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SaurabhSeleniumPackage.Tests.ErrorValidations.loginErrorMessage(ErrorValidations.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:30 IST" name="terminateBrowser" finished-at="2024-01-18T06:25:30 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:30 IST" name="launchApplication" finished-at="2024-01-18T06:25:37 IST" duration-ms="6236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorMessage()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:37 IST" name="loginErrorMessage" finished-at="2024-01-18T06:25:37 IST" duration-ms="430" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SaurabhSeleniumPackage.Tests.ErrorValidations.loginErrorMessage(ErrorValidations.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:38 IST" name="terminateBrowser" finished-at="2024-01-18T06:25:38 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:38 IST" name="launchApplication" finished-at="2024-01-18T06:25:44 IST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:44 IST" name="productErrorValidation" finished-at="2024-01-18T06:25:52 IST" duration-ms="8659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:SaurabhSeleniumPackage.Tests.ErrorValidations@5c7bfdc1]" started-at="2024-01-18T06:25:52 IST" name="terminateBrowser" finished-at="2024-01-18T06:25:53 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- SaurabhSeleniumPackage.Tests.ErrorValidations -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-01-18T06:25:20 IST" name="Submitform" finished-at="2024-01-18T06:26:04 IST" duration-ms="44276">
+      <class name="SaurabhSeleniumPackage.Tests.Submitform">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:20 IST" name="launchApplication" finished-at="2024-01-18T06:25:30 IST" duration-ms="10098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitsForm(java.util.HashMap)[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:30 IST" name="SubmitsForm" data-provider="getData" finished-at="2024-01-18T06:25:40 IST" duration-ms="9416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dots@123, product=ADIDAS ORIGINAL, email=saurabh@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitsForm -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:40 IST" name="terminateBrowser" finished-at="2024-01-18T06:25:41 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:41 IST" name="launchApplication" finished-at="2024-01-18T06:25:48 IST" duration-ms="7356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitsForm(java.util.HashMap)[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:48 IST" name="SubmitsForm" data-provider="getData" finished-at="2024-01-18T06:25:58 IST" duration-ms="9701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Welcome@123, product=ZARA COAT 3, email=pratishtha@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitsForm -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:58 IST" name="terminateBrowser" finished-at="2024-01-18T06:25:58 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:25:58 IST" name="launchApplication" finished-at="2024-01-18T06:26:03 IST" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:26:03 IST" name="orderHistory" finished-at="2024-01-18T06:26:04 IST" depends-on-methods="SaurabhSeleniumPackage.Tests.Submitform.SubmitsForm" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:SaurabhSeleniumPackage.Tests.Submitform@3f4faf53]" started-at="2024-01-18T06:26:04 IST" name="terminateBrowser" finished-at="2024-01-18T06:26:04 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- SaurabhSeleniumPackage.Tests.Submitform -->
+    </test> <!-- Submitform -->
+  </suite> <!-- Suite -->
+</testng-results>
